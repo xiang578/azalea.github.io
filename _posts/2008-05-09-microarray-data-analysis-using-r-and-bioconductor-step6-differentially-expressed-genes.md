@@ -35,7 +35,7 @@ maxttt&lt;-mt.maxT(norm_log_btw_array,classlabel,B=100000)</font>
 plot(sort(rawp),type='p',col=1,ylim=c(-0.05,1.00),ylab='p value')
 lines(sort(maxttt$adjp),type='p',col='red')
 #min adj-p: sort(maxttt$adjp)[1] 0.0163
-#rawp: &gt;sort(rawppp)[170]  [1] 0.0493 &gt; sort(rawppp)[171]  [1] 0.0502 170个raw p小于0.05
+#rawp: &gt;sort(rawppp)[170] [1] 0.0493 &gt; sort(rawppp)[171] [1] 0.0502 170个raw p小于0.05 id:0
 abline(h=0.05,col='blue')
 text(1000,c(0.6,0.7),labels=c('raw p-value','adjusted p-value'),col=c('black','red'))
 text(1000,0.08,labels='p=0.05',col='blue')</font>
