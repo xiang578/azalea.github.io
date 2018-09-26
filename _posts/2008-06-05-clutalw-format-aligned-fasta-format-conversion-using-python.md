@@ -28,7 +28,7 @@ Aligned FASTA格式更便于机器阅读，而ClustalW格式是比较人性化�
 
 ```python
 #!/usr/bin/python
-#Usage: python clw2afa.py input.clw
+#Usage: python clw2afa.py input.clw id:3
 #Default output is STDOUT, you can redirect using '>'
 #You can also import it as a module, i.e. import clw2afa
 

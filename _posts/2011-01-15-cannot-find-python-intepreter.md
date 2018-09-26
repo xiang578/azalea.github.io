@@ -7,9 +7,7 @@ tags:
 - special character
 language: en
 ---
-##Problem:
-
-I wrote a python script and ran it like this:
+##Problem: I wrote a python script and ran it like this: id:7
 
     $ python myscript
 
